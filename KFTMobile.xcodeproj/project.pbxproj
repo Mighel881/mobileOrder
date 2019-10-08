@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13C0BA7D902CFF52FD3AD0A5 /* Pods_KFTMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B983C912CEE11259DEB41F14 /* Pods_KFTMobileUITests.framework */; };
+		43644F7522D9CB7300039F35 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43644F7422D9CB7300039F35 /* Modifiers.swift */; };
+		43876D5022D9BC2300DBFD78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43876D4F22D9BC2300DBFD78 /* ViewController.swift */; };
+		438FF21422D9A50D00229373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438FF21322D9A50D00229373 /* AppDelegate.swift */; };
+		438FF21922D9A50D00229373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438FF21722D9A50D00229373 /* Main.storyboard */; };
+		438FF21B22D9A50E00229373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438FF21A22D9A50E00229373 /* Assets.xcassets */; };
+		438FF21E22D9A50E00229373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438FF21C22D9A50E00229373 /* LaunchScreen.storyboard */; };
+		438FF22922D9A50E00229373 /* KFTMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438FF22822D9A50E00229373 /* KFTMobileTests.swift */; };
+		438FF23422D9A50E00229373 /* KFTMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438FF23322D9A50E00229373 /* KFTMobileUITests.swift */; };
+		43B2A2A722DBD25B001D3350 /* loginControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B2A2A622DBD25B001D3350 /* loginControl.swift */; };
+		43E7190522D9A73600469C47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43E7190422D9A73500469C47 /* GoogleService-Info.plist */; };
+		6733D98922F3710A00BC88DB /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6733D98822F3710A00BC88DB /* Review.swift */; };
+		6749BA5222F331970011D6FC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6749BA5122F331970011D6FC /* Media.xcassets */; };
+		C6DD09E53C8EF477E20AA524 /* Pods_KFTMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADD242B29711D1EC13D9CD7 /* Pods_KFTMobileTests.framework */; };
+		F9E113C26DEE971682B45E17 /* Pods_KFTMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FD6BA6540662540AAF482A /* Pods_KFTMobile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		438FF22522D9A50E00229373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438FF20822D9A50D00229373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438FF20F22D9A50D00229373;
+			remoteInfo = KFTMobile;
+		};
+		438FF23022D9A50E00229373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438FF20822D9A50D00229373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438FF20F22D9A50D00229373;
+			remoteInfo = KFTMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0778F946A2E4C7C4414C0FB6 /* Pods-KFTMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFTMobile.release.xcconfig"; path = "Target Support Files/Pods-KFTMobile/Pods-KFTMobile.release.xcconfig"; sourceTree = "<group>"; };
+		1CAB694DA8743E8FFF1E14C3 /* Pods-KFTMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFTMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-KFTMobileTests/Pods-KFTMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FC5AD86A3BFF63D623867EB /* Pods-KFTMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFTMobileTests.release.xcconfig"; path = "Target Support Files/Pods-KFTMobileTests/Pods-KFTMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FDDDD6EBD98C611408B238D /* Pods-KFTMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFTMobileUITests.release.xcconfig"; path = "Target Support Files/Pods-KFTMobileUITests/Pods-KFTMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43644F7422D9CB7300039F35 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		43876D4F22D9BC2300DBFD78 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		438FF21022D9A50D00229373 /* KFTMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFTMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438FF21322D9A50D00229373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		438FF21822D9A50D00229373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		438FF21A22D9A50E00229373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		438FF21D22D9A50E00229373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		438FF21F22D9A50E00229373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438FF22422D9A50E00229373 /* KFTMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFTMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438FF22822D9A50E00229373 /* KFTMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFTMobileTests.swift; sourceTree = "<group>"; };
+		438FF22A22D9A50E00229373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438FF22F22D9A50E00229373 /* KFTMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFTMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438FF23322D9A50E00229373 /* KFTMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFTMobileUITests.swift; sourceTree = "<group>"; };
+		438FF23522D9A50E00229373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B2A2A622DBD25B001D3350 /* loginControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginControl.swift; sourceTree = "<group>"; };
+		43E7190422D9A73500469C47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F9289B2786C5360751DC3F1 /* Pods-KFTMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFTMobile.debug.xcconfig"; path = "Target Support Files/Pods-KFTMobile/Pods-KFTMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		6733D98822F3710A00BC88DB /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		6749BA5122F331970011D6FC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		7FDB2A1E19B64B98FE858E64 /* Pods-KFTMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFTMobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-KFTMobileUITests/Pods-KFTMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1FD6BA6540662540AAF482A /* Pods_KFTMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFTMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B983C912CEE11259DEB41F14 /* Pods_KFTMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFTMobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADD242B29711D1EC13D9CD7 /* Pods_KFTMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFTMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438FF20D22D9A50D00229373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E113C26DEE971682B45E17 /* Pods_KFTMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438FF22122D9A50E00229373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DD09E53C8EF477E20AA524 /* Pods_KFTMobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438FF22C22D9A50E00229373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C0BA7D902CFF52FD3AD0A5 /* Pods_KFTMobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438FF20722D9A50D00229373 = {
+			isa = PBXGroup;
+			children = (
+				438FF21222D9A50D00229373 /* KFTMobile */,
+				438FF22722D9A50E00229373 /* KFTMobileTests */,
+				438FF23222D9A50E00229373 /* KFTMobileUITests */,
+				438FF21122D9A50D00229373 /* Products */,
+				E7D152E61153E73AE638287A /* Pods */,
+				8AEE672E086233B7AB9DEC04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		438FF21122D9A50D00229373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438FF21022D9A50D00229373 /* KFTMobile.app */,
+				438FF22422D9A50E00229373 /* KFTMobileTests.xctest */,
+				438FF22F22D9A50E00229373 /* KFTMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438FF21222D9A50D00229373 /* KFTMobile */ = {
+			isa = PBXGroup;
+			children = (
+				6749BA5122F331970011D6FC /* Media.xcassets */,
+				438FF21322D9A50D00229373 /* AppDelegate.swift */,
+				438FF21722D9A50D00229373 /* Main.storyboard */,
+				6733D98822F3710A00BC88DB /* Review.swift */,
+				43876D4F22D9BC2300DBFD78 /* ViewController.swift */,
+				43644F7422D9CB7300039F35 /* Modifiers.swift */,
+				43B2A2A622DBD25B001D3350 /* loginControl.swift */,
+				438FF21A22D9A50E00229373 /* Assets.xcassets */,
+				438FF21C22D9A50E00229373 /* LaunchScreen.storyboard */,
+				438FF21F22D9A50E00229373 /* Info.plist */,
+				43E7190422D9A73500469C47 /* GoogleService-Info.plist */,
+			);
+			path = KFTMobile;
+			sourceTree = "<group>";
+		};
+		438FF22722D9A50E00229373 /* KFTMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				438FF22822D9A50E00229373 /* KFTMobileTests.swift */,
+				438FF22A22D9A50E00229373 /* Info.plist */,
+			);
+			path = KFTMobileTests;
+			sourceTree = "<group>";
+		};
+		438FF23222D9A50E00229373 /* KFTMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				438FF23322D9A50E00229373 /* KFTMobileUITests.swift */,
+				438FF23522D9A50E00229373 /* Info.plist */,
+			);
+			path = KFTMobileUITests;
+			sourceTree = "<group>";
+		};
+		8AEE672E086233B7AB9DEC04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1FD6BA6540662540AAF482A /* Pods_KFTMobile.framework */,
+				FADD242B29711D1EC13D9CD7 /* Pods_KFTMobileTests.framework */,
+				B983C912CEE11259DEB41F14 /* Pods_KFTMobileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7D152E61153E73AE638287A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F9289B2786C5360751DC3F1 /* Pods-KFTMobile.debug.xcconfig */,
+				0778F946A2E4C7C4414C0FB6 /* Pods-KFTMobile.release.xcconfig */,
+				1CAB694DA8743E8FFF1E14C3 /* Pods-KFTMobileTests.debug.xcconfig */,
+				1FC5AD86A3BFF63D623867EB /* Pods-KFTMobileTests.release.xcconfig */,
+				7FDB2A1E19B64B98FE858E64 /* Pods-KFTMobileUITests.debug.xcconfig */,
+				2FDDDD6EBD98C611408B238D /* Pods-KFTMobileUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438FF20F22D9A50D00229373 /* KFTMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438FF23822D9A50E00229373 /* Build configuration list for PBXNativeTarget "KFTMobile" */;
+			buildPhases = (
+				A0308B04AEA9D19571BD7B0B /* [CP] Check Pods Manifest.lock */,
+				438FF20C22D9A50D00229373 /* Sources */,
+				438FF20D22D9A50D00229373 /* Frameworks */,
+				438FF20E22D9A50D00229373 /* Resources */,
+				FC08CBC30DFAD1E7DBAF779F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFTMobile;
+			productName = KFTMobile;
+			productReference = 438FF21022D9A50D00229373 /* KFTMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		438FF22322D9A50E00229373 /* KFTMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438FF23B22D9A50E00229373 /* Build configuration list for PBXNativeTarget "KFTMobileTests" */;
+			buildPhases = (
+				05F3EFDE9777644003E44970 /* [CP] Check Pods Manifest.lock */,
+				438FF22022D9A50E00229373 /* Sources */,
+				438FF22122D9A50E00229373 /* Frameworks */,
+				438FF22222D9A50E00229373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438FF22622D9A50E00229373 /* PBXTargetDependency */,
+			);
+			name = KFTMobileTests;
+			productName = KFTMobileTests;
+			productReference = 438FF22422D9A50E00229373 /* KFTMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		438FF22E22D9A50E00229373 /* KFTMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438FF23E22D9A50E00229373 /* Build configuration list for PBXNativeTarget "KFTMobileUITests" */;
+			buildPhases = (
+				B110BEE65F2C5085CF355DF1 /* [CP] Check Pods Manifest.lock */,
+				438FF22B22D9A50E00229373 /* Sources */,
+				438FF22C22D9A50E00229373 /* Frameworks */,
+				438FF22D22D9A50E00229373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438FF23122D9A50E00229373 /* PBXTargetDependency */,
+			);
+			name = KFTMobileUITests;
+			productName = KFTMobileUITests;
+			productReference = 438FF22F22D9A50E00229373 /* KFTMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438FF20822D9A50D00229373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Raffer Li";
+				TargetAttributes = {
+					438FF20F22D9A50D00229373 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
+					};
+					438FF22322D9A50E00229373 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
+						TestTargetID = 438FF20F22D9A50D00229373;
+					};
+					438FF22E22D9A50E00229373 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
+						TestTargetID = 438FF20F22D9A50D00229373;
+					};
+				};
+			};
+			buildConfigurationList = 438FF20B22D9A50D00229373 /* Build configuration list for PBXProject "KFTMobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 438FF20722D9A50D00229373;
+			productRefGroup = 438FF21122D9A50D00229373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438FF20F22D9A50D00229373 /* KFTMobile */,
+				438FF22322D9A50E00229373 /* KFTMobileTests */,
+				438FF22E22D9A50E00229373 /* KFTMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438FF20E22D9A50D00229373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6749BA5222F331970011D6FC /* Media.xcassets in Resources */,
+				438FF21E22D9A50E00229373 /* LaunchScreen.storyboard in Resources */,
+				43E7190522D9A73600469C47 /* GoogleService-Info.plist in Resources */,
+				438FF21B22D9A50E00229373 /* Assets.xcassets in Resources */,
+				438FF21922D9A50D00229373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438FF22222D9A50E00229373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438FF22D22D9A50E00229373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05F3EFDE9777644003E44970 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KFTMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0308B04AEA9D19571BD7B0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KFTMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B110BEE65F2C5085CF355DF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KFTMobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC08CBC30DFAD1E7DBAF779F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KFTMobile/Pods-KFTMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KFTMobile/Pods-KFTMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KFTMobile/Pods-KFTMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438FF20C22D9A50D00229373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6733D98922F3710A00BC88DB /* Review.swift in Sources */,
+				43876D5022D9BC2300DBFD78 /* ViewController.swift in Sources */,
+				43644F7522D9CB7300039F35 /* Modifiers.swift in Sources */,
+				438FF21422D9A50D00229373 /* AppDelegate.swift in Sources */,
+				43B2A2A722DBD25B001D3350 /* loginControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438FF22022D9A50E00229373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438FF22922D9A50E00229373 /* KFTMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438FF22B22D9A50E00229373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438FF23422D9A50E00229373 /* KFTMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438FF22622D9A50E00229373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438FF20F22D9A50D00229373 /* KFTMobile */;
+			targetProxy = 438FF22522D9A50E00229373 /* PBXContainerItemProxy */;
+		};
+		438FF23122D9A50E00229373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438FF20F22D9A50D00229373 /* KFTMobile */;
+			targetProxy = 438FF23022D9A50E00229373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		438FF21722D9A50D00229373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438FF21822D9A50D00229373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		438FF21C22D9A50E00229373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438FF21D22D9A50E00229373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		438FF23622D9A50E00229373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		438FF23722D9A50E00229373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		438FF23922D9A50E00229373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9289B2786C5360751DC3F1 /* Pods-KFTMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVZCKK5RZ9;
+				INFOPLIST_FILE = KFTMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RafferLi.KFTMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		438FF23A22D9A50E00229373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0778F946A2E4C7C4414C0FB6 /* Pods-KFTMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVZCKK5RZ9;
+				INFOPLIST_FILE = KFTMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RafferLi.KFTMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		438FF23C22D9A50E00229373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAB694DA8743E8FFF1E14C3 /* Pods-KFTMobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVZCKK5RZ9;
+				INFOPLIST_FILE = KFTMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RafferLi.KFTMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KFTMobile.app/KFTMobile";
+			};
+			name = Debug;
+		};
+		438FF23D22D9A50E00229373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC5AD86A3BFF63D623867EB /* Pods-KFTMobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVZCKK5RZ9;
+				INFOPLIST_FILE = KFTMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RafferLi.KFTMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KFTMobile.app/KFTMobile";
+			};
+			name = Release;
+		};
+		438FF23F22D9A50E00229373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDB2A1E19B64B98FE858E64 /* Pods-KFTMobileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVZCKK5RZ9;
+				INFOPLIST_FILE = KFTMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RafferLi.KFTMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KFTMobile;
+			};
+			name = Debug;
+		};
+		438FF24022D9A50E00229373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDDDD6EBD98C611408B238D /* Pods-KFTMobileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVZCKK5RZ9;
+				INFOPLIST_FILE = KFTMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RafferLi.KFTMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KFTMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438FF20B22D9A50D00229373 /* Build configuration list for PBXProject "KFTMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438FF23622D9A50E00229373 /* Debug */,
+				438FF23722D9A50E00229373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438FF23822D9A50E00229373 /* Build configuration list for PBXNativeTarget "KFTMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438FF23922D9A50E00229373 /* Debug */,
+				438FF23A22D9A50E00229373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438FF23B22D9A50E00229373 /* Build configuration list for PBXNativeTarget "KFTMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438FF23C22D9A50E00229373 /* Debug */,
+				438FF23D22D9A50E00229373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438FF23E22D9A50E00229373 /* Build configuration list for PBXNativeTarget "KFTMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438FF23F22D9A50E00229373 /* Debug */,
+				438FF24022D9A50E00229373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438FF20822D9A50D00229373 /* Project object */;
+}
