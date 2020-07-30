@@ -14,8 +14,8 @@ built and tested for ios 12.4
 
 # Screenshots
 
-![image](https://files.rafferli.com/mobileOrderIMG/placeOrder.png)
-![image](https://files.rafferli.com/mobileOrderIMG/drinkSelection.png)
-![image](https://files.rafferli.com/mobileOrder/modifierSelection.png)
-![image](https://files.rafferli.com/mobileOrder/confirmOrder.png)
+![image](https://files.rafferli.com/mobileOrderMedia/placeOrder.png)
+![image](https://files.rafferli.com/mobileOrderMedia/drinkSelection.png)
+![image](https://files.rafferli.com/mobileOrderMedia/modifierSelection.png)
+![image](https://files.rafferli.com/mobileOrderMedia/confirmOrder.png)
 
