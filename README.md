@@ -1,4 +1,4 @@
-# mobileOrder v 1.0.1  
+# mobileOrder
 **mobileOrder** is a prototype ordering app for popular bubble tea drinks  
 customers can place orders before arrival to reduce wait times
 
