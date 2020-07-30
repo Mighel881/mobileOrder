@@ -1,8 +1,5 @@
-# mobileOrder
-version 1.0.1  
-built and tested for ios 12.4
-
-# introduction
+# mobileOrder v 1.0.1  
+built and tested for ios 12.4, works with iOS 13  
 **mobileOrder** is a prototype ordering app for popular bubble tea drinks  
 customers can place orders before arrival to reduce wait times
 
