@@ -13,9 +13,9 @@ built and tested for ios 12.4
 * firebase is requried for compliation in xcode
 
 # Screenshots
-
-![image](https://files.rafferli.com/mobileOrderMedia/placeOrder.png)  
-![image](https://files.rafferli.com/mobileOrderMedia/drinkSelection.png)
+![image](https://files.rafferli.com/mobileOrderMedia/loginScreen.png)
+![image](https://files.rafferli.com/mobileOrderMedia/placeOrder.png)
+![image](https://files.rafferli.com/mobileOrderMedia/drinkSelection.png)  
 ![image](https://files.rafferli.com/mobileOrderMedia/modifierSelection.png)
 ![image](https://files.rafferli.com/mobileOrderMedia/confirmOrder.png)
-
+![image](https://files.rafferli.com/mobileOrderMedia/statusDrink.png)
