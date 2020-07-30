@@ -1,5 +1,5 @@
 # mobileOrder
-version 1.0.1
+version 1.0.1  
 built and tested for ios 12.4
 
 # introduction
@@ -14,7 +14,7 @@ built and tested for ios 12.4
 
 # Screenshots
 
-![image](https://files.rafferli.com/mobileOrderMedia/placeOrder.png)
+![image](https://files.rafferli.com/mobileOrderMedia/placeOrder.png)  
 ![image](https://files.rafferli.com/mobileOrderMedia/drinkSelection.png)
 ![image](https://files.rafferli.com/mobileOrderMedia/modifierSelection.png)
 ![image](https://files.rafferli.com/mobileOrderMedia/confirmOrder.png)
