@@ -19,7 +19,7 @@ create an account or login with an existing account
 ![image](https://files.rafferli.com/mobileOrderMedia/modifierSelection.png)  
 select a drink and customize what goes inside of it  
 ![image](https://files.rafferli.com/mobileOrderMedia/statusDrink.png)
-![image](https://files.rafferli.com/mobileOrderMedia/confirmOrder.png)
+![image](https://files.rafferli.com/mobileOrderMedia/confirmOrder.png)  
 orders update from yellow to green when an order is complete  
 
 # dependencies and information
