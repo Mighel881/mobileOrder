@@ -11,15 +11,16 @@ customers can place orders before arrival to reduce wait times
 * requests for different sugar levels, ice levels and drink size
 * customers can customize drinks with intuitive segemented controls and steppers
 
-# Screenshots
+# screenshots
 ![image](https://files.rafferli.com/mobileOrderMedia/loginScreen.png)
 ![image](https://files.rafferli.com/mobileOrderMedia/placeOrder.png)  
-**users can create an account or login with an existing account**  
+create an account or login with an existing account  
 ![image](https://files.rafferli.com/mobileOrderMedia/drinkSelection.png)
 ![image](https://files.rafferli.com/mobileOrderMedia/modifierSelection.png)  
+select a drink and customize what goes inside of it  
 ![image](https://files.rafferli.com/mobileOrderMedia/confirmOrder.png)
 ![image](https://files.rafferli.com/mobileOrderMedia/statusDrink.png)  
-**orders update from yellow to green when an order is complete**  
+orders update from yellow to green when an order is complete  
 
 # dependencies and information
 * mobileOrder is written 100% in Swift
