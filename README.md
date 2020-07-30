@@ -1,5 +1,4 @@
 # mobileOrder v 1.0.1  
-built and tested for ios 12.4, works with iOS 13  
 **mobileOrder** is a prototype ordering app for popular bubble tea drinks  
 customers can place orders before arrival to reduce wait times
 
@@ -22,6 +21,7 @@ orders update from yellow to green when an order is complete
 # dependencies and information
 * mobileOrder is written 100% in Swift
 * firebase is requried for compliation in xcode
+* built and tested for ios 12.4, works with iOS 13
 
 # planned features
 * pay through the app
