@@ -14,12 +14,12 @@ customers place orders before arrival to reduce wait times
 # Screenshots
 ![image](https://files.rafferli.com/mobileOrderMedia/loginScreen.png)
 ![image](https://files.rafferli.com/mobileOrderMedia/placeOrder.png)
-![image](https://files.rafferli.com/mobileOrderMedia/drinkSelection.png)
-users can create an account or login with an existing account
+![image](https://files.rafferli.com/mobileOrderMedia/drinkSelection.png)  
+users can create an account or login with an existing account  
 ![image](https://files.rafferli.com/mobileOrderMedia/modifierSelection.png)
 ![image](https://files.rafferli.com/mobileOrderMedia/confirmOrder.png)
-![image](https://files.rafferli.com/mobileOrderMedia/statusDrink.png)
-orders update from yellow to green when an order is complete
+![image](https://files.rafferli.com/mobileOrderMedia/statusDrink.png)  
+orders update from yellow to green when an order is complete  
 
 # dependencies and information
 * mobileOrder is written purely in Swift
